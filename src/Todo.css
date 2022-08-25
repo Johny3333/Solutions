@@ -1,0 +1,61 @@
+.dataresult{
+    margin-top: 0px;
+    width:300px;
+    height:200px;
+    box-shadow: rgba(0,0,0,0.35,0px 5px 15px);
+    overflow: hidden;
+    overflow-y: auto;
+    position: relative;
+    
+}
+.dataresult::-webkit-scrollbar{
+    display: none;
+}
+
+.searchBar{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.searchInput{
+    margin-bottom: 50px;
+}
+.input:focus{
+    width: 225px;
+    outline: none;
+}
+.dataitem{
+    cursor: pointer;
+}
+.dataitem:hover{
+    background-color: lightgrey;
+}
+table {
+    width: 100%;
+    margin: 0px 0px;
+    border-spacing: 15px;
+    color: #444;
+    padding-left: 150px;
+    position: absolute;
+  }
+  
+  tr {
+    margin-bottom: 20px;
+  }
+  
+  th {
+    width: 250px;
+    font-size: 20px;
+  }
+  
+  td {
+    width: 250px;
+    font-size: 20px;
+  }
+
+  .search {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .popup{
+    
+  }
